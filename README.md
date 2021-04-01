@@ -1,4 +1,4 @@
-Naver Blog PC Web (Chrome Extension)
+Naver Blog Switch to PC Web (Chrome Extension)
 ===========
 데스크톱에서 네이버 블로그 들어갔을 때 모바일 페이지가 아닌 자동으로 PC버전으로 보여지게 하기
 
@@ -13,5 +13,6 @@ Naver Blog PC Web (Chrome Extension)
 
 변경점 (이라고 할 게 있나......)
 ---
+* 0.2 - 페이지 로딩 전에 이동하게 함
 * 0.1.1 - 블로그 뿐만 아니라 카페랑 지도도 이동하게 하긴 했는데 잘 작동하는지는 모름 (...)
 * 0.1 - 첫 버전
