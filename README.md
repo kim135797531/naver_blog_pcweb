@@ -13,6 +13,7 @@ Naver Blog Switch to PC Web (Chrome Extension)
 
 변경점 (이라고 할 게 있나......)
 ---
+* 0.2.1 - URL에 PostView.naver가 있는 경우엔 m 빼고 안 되서 PostView.nhn으로 바꿔 줌
 * 0.2 - 페이지 로딩 전에 이동하게 함
 * 0.1.1 - 블로그 뿐만 아니라 카페랑 지도도 이동하게 하긴 했는데 잘 작동하는지는 모름 (...)
 * 0.1 - 첫 버전
