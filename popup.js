@@ -11,25 +11,25 @@ let cafeCheckBox = document.getElementById('cafe');
 let mapCheckBox = document.getElementById('map');
 
 onButton.onclick = function(element) {
-  chrome.storage.sync.set({isEnabled: true}, function() {
-    chrome.browserAction.setBadgeText({text: 'ON'});
-  });
+    chrome.storage.sync.set({ isEnabled: true }, function() {
+        chrome.action.setBadgeText({ text: 'ON' });
+    });
 };
 
 offButton.onclick = function(element) {
-  chrome.storage.sync.set({isEnabled: false}, function() {
-    chrome.browserAction.setBadgeText({text: 'OFF'});
-  });
+    chrome.storage.sync.set({ isEnabled: false }, function() {
+        chrome.action.setBadgeText({ text: 'OFF' });
+    });
 };
 
 blogCheckBox.onchange = function blogChange() {
-  chrome.storage.sync.set({blog: blogCheckBox.checked}, function() {});
+    chrome.storage.sync.set({ blog: blogCheckBox.checked }, function() {});
 };
 cafeCheckBox.onchange = function cafeChange() {
-  chrome.storage.sync.set({cafe: cafeCheckBox.checked}, function() {});
+    chrome.storage.sync.set({ cafe: cafeCheckBox.checked }, function() {});
 };
 mapCheckBox.onchange = function mapChange() {
-  chrome.storage.sync.set({map: mapCheckBox.checked}, function() {});
+    chrome.storage.sync.set({ map: mapCheckBox.checked }, function() {});
 };
 
 
