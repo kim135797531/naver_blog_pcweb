@@ -1,6 +1,9 @@
 Naver Blog Switch to PC Web (Chrome Extension)
 ===========
+
 데스크톱에서 네이버 블로그 들어갔을 때 모바일 페이지가 아닌 자동으로 PC버전으로 보여지게 하기
+
+Chrome 웹 스토어 링크: https://chromewebstore.google.com/detail/naver-blog-pc-web/ecildldnhbnojdochfachamphkehhifd?hl=ko
 
 개요 (라고 할 게 있나..)
 ----
@@ -13,6 +16,7 @@ Naver Blog Switch to PC Web (Chrome Extension)
 
 변경점 (이라고 할 게 있나......)
 ---
+* 0.3.1 - blog.naver.com 서브도메인 아래에 clip과 moment이 있는 경우 m을 제거하지 않음
 * 0.3 - Redirect 이력 없애기
   * window.location = url에서 window.location.replace(url)으로 변경
   * Manifest v3 사용

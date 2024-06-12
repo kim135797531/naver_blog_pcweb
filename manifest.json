@@ -1,7 +1,7 @@
 {
     "name": "Naver Blog PC Web",
-    "version": "0.3",
-    "description": "데스크톱에서 네이버 블로그 들어갔을 때 모바일 페이지가 아닌 자동으로 PC버전으로 보여지게 하기. 네이버 카페랑 네이버 지도는 테스트중",
+    "version": "0.3.1",
+    "description": "데스크톱에서 네이버 블로그 들어갔을 때 모바일 페이지가 아닌 자동으로 PC버전으로 보여지게 하기.",
     "background": {
         "service_worker": "background.js"
     },
