@@ -1,4 +1,4 @@
-chrome.storage.sync.get(['isEnabled', 'blog', 'cafe', 'map'], function(data) {
+chrome.storage.sync.get(['isEnabled', 'blog', 'cafe', 'map', 'main'], function(data) {
     var shouldRedirect = true;
 
     var currentURL = window.location.href;
@@ -20,6 +20,9 @@ chrome.storage.sync.get(['isEnabled', 'blog', 'cafe', 'map'], function(data) {
 
     } else if (data.isEnabled && data.map && currentURL.includes("m.map.naver")) {
         newURL = currentURL.replace("m.map.naver", "map.naver");
+
+    } else if (data.isEnabled && data.main && currentURL.endsWith("://m.naver.com/")) {
+        newURL = currentURL.replace("://m.naver", "://www.naver");
 
     } else {
         shouldRedirect = false; // No redirection rule found

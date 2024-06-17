@@ -9,6 +9,7 @@ let offButton = document.getElementById('off');
 let blogCheckBox = document.getElementById('blog');
 let cafeCheckBox = document.getElementById('cafe');
 let mapCheckBox = document.getElementById('map');
+let mainCheckBox = document.getElementById('main');
 
 onButton.onclick = function(element) {
     chrome.storage.sync.set({ isEnabled: true }, function() {
@@ -31,11 +32,15 @@ cafeCheckBox.onchange = function cafeChange() {
 mapCheckBox.onchange = function mapChange() {
     chrome.storage.sync.set({ map: mapCheckBox.checked }, function() {});
 };
+mainCheckBox.onchange = function mainChange() {
+    chrome.storage.sync.set({ main: mainCheckBox.checked }, function() {});
+};
 
 
 // ComboBox initialize
-chrome.storage.sync.get(['blog', 'cafe', 'map'], function(data) {
+chrome.storage.sync.get(['blog', 'cafe', 'map', 'main'], function(data) {
     blogCheckBox.checked = data.blog;
     cafeCheckBox.checked = data.cafe;
     mapCheckBox.checked = data.map;
+    mainCheckBox.checked = data.main;
 });

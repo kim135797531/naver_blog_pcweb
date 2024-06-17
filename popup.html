@@ -1,38 +1,42 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <meta charset="utf-8">
-      <title>Naver Blog PC Web</title>
-      <style>
+
+<head>
+    <meta charset="utf-8">
+    <title>Naver Blog PC Web</title>
+    <style>
         button {
-          height: 30px;
-          width: 200px;
-          outline: none;
+            height: 30px;
+            width: 200px;
+            outline: none;
         }
-      </style>
-    </head>
-    <body>
+    </style>
+</head>
+
+<body>
+    <div>
         <div>
-            <div>
-                <p>
-                    <h4>Naver Blog PC Web</h4>
-                </p>
-                <p>
-                    왜 데스크톱에서 다 깨진 모바일 블로그를 봐야 되는걸까요?<br>
-                    스크롤 맨 밑으로 내려서 PC버전으로 보기 버튼 누르기 귀찮아서 만들었습니다.
-                </p>
-            </div>
-            <div>
-                    <button id='on' value='on'>켜기(자동 전환)</button>
-                    <button id='off' value='off'>끄기</button>
-                    <input type="checkbox" id="blog" name="blog">
-                    <label for="blog"> 블로그 전환</label><br>
-                    <input type="checkbox" id="cafe" name="cafe">
-                    <label for="cafe"> 카페 전환</label><br>
-                    <input type="checkbox" id="map" name="map">
-                    <label for="map"> 지도 전환</label><br>
-            </div>
+            <p>
+                <h4>Naver Blog PC Web</h4>
+            </p>
+            <p>
+                왜 데스크톱에서 다 깨진 모바일 블로그를 봐야 되는걸까요?<br> 스크롤 맨 밑으로 내려서 PC버전으로 보기 버튼 누르기 귀찮아서 만들었습니다.
+            </p>
         </div>
-     <script src="popup.js"></script>
-    </body>
+        <div>
+            <button id='on' value='on'>켜기(자동 전환)</button>
+            <button id='off' value='off'>끄기</button>
+            <input type="checkbox" id="blog" name="blog">
+            <label for="blog"> 블로그 전환</label><br>
+            <input type="checkbox" id="cafe" name="cafe">
+            <label for="cafe"> 카페 전환</label><br>
+            <input type="checkbox" id="map" name="map">
+            <label for="map"> 지도 전환</label><br>
+            <input type="checkbox" id="main" name="main">
+            <label for="main"> 메인 화면 전환</label><br>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
 </html>

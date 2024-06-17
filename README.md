@@ -16,6 +16,7 @@ Chrome 웹 스토어 링크: https://chromewebstore.google.com/detail/naver-blog
 
 변경점 (이라고 할 게 있나......)
 ---
+* 0.3.2 - 정확히 m.naver.com/ 일때는 m을 지우기 (선택 사항)
 * 0.3.1 - blog.naver.com 서브도메인 아래에 clip과 moment이 있는 경우 m을 제거하지 않음
 * 0.3 - Redirect 이력 없애기
   * window.location = url에서 window.location.replace(url)으로 변경
