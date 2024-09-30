@@ -30,7 +30,9 @@
             "https://cafe.naver.com/*",
             "https://m.cafe.naver.com/*",
             "http://m.naver.com/",
-            "https://m.naver.com/"
+            "https://m.naver.com/",
+            "http://m.place.naver.com/*",
+            "https://m.place.naver.com/*"
         ],
         "js": ["contentScript.js"],
         "run_at": "document_start",
