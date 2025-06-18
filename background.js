@@ -7,6 +7,7 @@ chrome.runtime.onInstalled.addListener(function(details) {
         chrome.storage.sync.set({ cafe: true }, function() {});
         chrome.storage.sync.set({ map: true }, function() {});
         chrome.storage.sync.set({ main: false }, function() {});
+        chrome.storage.sync.set({ place: true }, function() {});
     }
 
     chrome.storage.sync.get(['isEnabled'], function(data) {
