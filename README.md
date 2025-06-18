@@ -16,6 +16,7 @@ Chrome 웹 스토어 링크: https://chromewebstore.google.com/detail/naver-blog
 
 변경점 (이라고 할 게 있나......)
 ---
+* 0.3.3 - (가게 상호 정보에 해당하는) 모바일 네이버 플레이스 페이지를 데스크톱 네이버 지도로 전환 (code918님 도움으로 구현)
 * 0.3.2 - 정확히 m.naver.com/ 일때는 m을 지우기 (선택 사항)
 * 0.3.1 - blog.naver.com 서브도메인 아래에 clip과 moment이 있는 경우 m을 제거하지 않음
 * 0.3 - Redirect 이력 없애기
